@@ -1,0 +1,60 @@
+
+@font-face {
+  font-family: 'Secular One';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/secularone/v11/8QINdiTajsj_87rMuMdKyqDiOOhZL4pL.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Monoton';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/monoton/v15/5h1aiZUrOngCibe4TkHLQka4BU4.woff2) format('woff2');
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: hsla(200, 19%, 0%);
+  color: hsla(187, 72%, 93%)
+}
+main{
+
+}
+
+#header{
+  text-align: center;
+  border: 1px solid black;
+  margin: 20px 0px;
+  text-transform: capitalize;
+  font-family: 'Monoton' ;
+  color: #8c6b48 ;
+
+
+}
+
+table{
+  margin: 30px auto;
+  /*background-color: hsla(16, 25%, 38%, 0.5);*/
+}
+
+td{
+  width: 200px;
+}
+
+.title{
+  margin-bottom: 30px;
+  color: #8c6b48;
+  font-size: 18px;
+}
+
+.tag{
+text-align: center;
+font-family: monospace;
+
+}
+.description{
+  width: 350px;
+}
